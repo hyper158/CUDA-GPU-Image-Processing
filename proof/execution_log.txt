@@ -1,0 +1,34 @@
+CUDA GPU-Accelerated Image Processing
+Proof of Execution
+========================================
+
+GPU Environment
+---------------
+GPU: NVIDIA Tesla T4
+Compute Capability: 7.5
+CUDA Compiler: NVCC 12.8
+
+Large Image Benchmark
+---------------------
+Input Image: fruits_2048.jpg
+Resolution: 2048 x 2048
+
+CPU Execution
+-------------
+CPU Processing Time: 140.117 ms
+Status: Processing completed successfully.
+
+GPU Execution
+-------------
+GPU Total Time: 11.8919 ms
+Timing Includes: Host-to-Device + CUDA Kernel + Device-to-Host
+Status: Processing completed successfully.
+
+Performance Comparison
+----------------------
+Approximate CPU/GPU Time Ratio: 11.78x
+
+Output
+------
+CPU and GPU grayscale output images were generated successfully.
+The project was executed using an NVIDIA Tesla T4 GPU.

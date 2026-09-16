@@ -1,0 +1,10 @@
+GPU Execution Environment
+========================
+
+GPU: NVIDIA Tesla T4
+Compute Capability: 7.5
+NVIDIA Driver: 580.82.07
+CUDA Compiler: NVCC 12.8
+
+The CUDA application detected the NVIDIA Tesla T4 GPU
+during runtime and successfully executed the grayscale kernel.
