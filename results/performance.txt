@@ -1,0 +1,28 @@
+CUDA GPU Image Processing - Performance Results
+================================================
+
+GPU: NVIDIA Tesla T4
+Compute Capability: 7.5
+Input Image: fruits.jpg
+Resolution: 512 x 480
+
+CPU Processing Time: 10.1792 ms
+GPU Kernel Time: 14.4349 ms
+
+Both CPU and GPU grayscale outputs were generated successfully.
+
+Large Image Benchmark
+---------------------
+Input Image: fruits_2048.jpg
+Resolution: 2048 x 2048
+CPU Processing Time: 140.117 ms
+GPU Kernel Time: 0.390144 ms
+
+Fair End-to-End GPU Benchmark
+------------------------------
+Input Image: fruits_2048.jpg
+Resolution: 2048 x 2048
+CPU Processing Time: 140.117 ms
+GPU Total Time: 11.8919 ms
+GPU Timing Includes: Host-to-Device + Kernel + Device-to-Host
+Approximate Speedup: 11.78x
